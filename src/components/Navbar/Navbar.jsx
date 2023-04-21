@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ isAuth }) => {
     return (
         <nav>
             <Link to='/'>Home</Link>
             <Link to='/createpost'>Create Post</Link>
-            <Link to='/login'>Login</Link>
+            {!isAuth && <Link to='/login'>Login</Link>}
         </nav>
     )
 }
