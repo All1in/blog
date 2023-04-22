@@ -19,12 +19,12 @@ function Home({ isAuth }) {
         getPosts();
     }, [deletePost]);
 
-
     return (
         <div className="homePage">
+            {!postLists.length && <h1>No posts now</h1>}
             {postLists.map((post) => {
                 return (
-                    <div className="post">
+                    <div key={post.id} className="post">
                         <div className="postHeader">
                             <div className="title">
                                 <h1> {post.title}</h1>
@@ -32,9 +32,7 @@ function Home({ isAuth }) {
                             <div className="deletePost">
                                 {isAuth && post.author.id === auth.currentUser.uid && (
                                     <button
-                                        onClick={() => {
-                                            deletePost(post.id);
-                                        }}
+                                        onClick={() => deletePost(post.id)}
                                     >
                                         &#128465;
                                     </button>

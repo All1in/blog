@@ -19,7 +19,7 @@ const App = () => {
     return (
     <div className="App">
       <Navbar signUserOut={signUserOut} isAuth={isAuth} />
-      <AppRouter setIsAuth={setIsAuth} />
+      <AppRouter isAuth={isAuth} setIsAuth={setIsAuth} />
     </div>
   );
 }
