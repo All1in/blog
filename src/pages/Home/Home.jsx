@@ -50,4 +50,4 @@ function Home({ isAuth }) {
     );
 }
 
-export default Home;
+export default Home
