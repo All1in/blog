@@ -1,8 +1,8 @@
 # MY-BLOG
 
 <div align="center">
-    <img src="https://bmmagazine.co.uk/wp-content/uploads/2017/01/blogging-e1484908296381.jpg" alt="" />
-    <img src="https://www.emergingedtech.com/wp/wp-content/uploads/2018/04/blogging.jpg" alt="">
+    <img width="100%" src="https://bmmagazine.co.uk/wp-content/uploads/2017/01/blogging-e1484908296381.jpg" alt="" />
+    <img width="100%" src="https://www.emergingedtech.com/wp/wp-content/uploads/2018/04/blogging.jpg" alt="">
 </div>
 
 ## Getting Started
