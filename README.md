@@ -1,8 +1,8 @@
 # MY-BLOG
 
 <div align="center">
-    <img src="https://i.stack.imgur.com/HLTlE.png" alt="" />
-    <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1616390986056/X-eqTII-r.png" alt="">
+    <img src="https://bmmagazine.co.uk/wp-content/uploads/2017/01/blogging-e1484908296381.jpg" alt="" />
+    <img src="https://www.emergingedtech.com/wp/wp-content/uploads/2018/04/blogging.jpg" alt="">
 </div>
 
 ## Getting Started
